@@ -1,24 +1,24 @@
 # ui
 
+## About
+
+The purpose of this app is to explore the functionality and design of nonfungible tokens.
+
+The general workflow is as follows:
+
+- The bank generates tokens for a given service
+- The bank issues tokens to a patient
+- The patient brings a token to the provider to redeem it
+- A receipt is generated
+
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+`npm i`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+`npm run serve`
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Todo
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Add daml contract to the backend
+- Hook up the JSON API with node.js
+- Connect the front end to the API
