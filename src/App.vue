@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
+    <v-app-bar app color="black" dark>
       <div class="d-flex align-center">
         Non-fungible Tokens
       </div>
@@ -39,6 +39,10 @@ export default {
       {
         label: 'About',
         url: '/about',
+      },
+      {
+        label: 'Pizza',
+        url: '/pizza',
       },
     ],
   }),

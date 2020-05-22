@@ -11,6 +11,13 @@ The general workflow is as follows:
 - The patient brings a token to the provider to redeem it
 - A receipt is generated
 
+## Features
+
+- Filter issued tokens by token type
+- Clear filter
+- Coin image appears when token is dragged
+- Drop area is highlighted when active
+
 ## Project setup
 
 `npm i`
