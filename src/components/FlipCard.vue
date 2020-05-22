@@ -35,9 +35,6 @@ export default {
 </script>
 
 <style type="text/css" scoped>
-.scroll {
-  overflow-y: auto;
-}
 .flip-container {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;

@@ -40,10 +40,6 @@ export default {
         label: 'About',
         url: '/about',
       },
-      {
-        label: 'Pizza',
-        url: '/pizza',
-      },
     ],
   }),
 }
