@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="token">
     <drag
       class="drag"
       :image-y-offset="80"
@@ -11,7 +11,7 @@
         <img src="../assets/blank_token.png" alt="" />
       </div>
 
-      <v-card width="100%">
+      <v-card color="secondary" shaped width="100%">
         <v-card-title>{{ token.service }}</v-card-title>
         <v-card-subtitle>{{ token.id }}</v-card-subtitle>
         <v-card-subtitle>Owner: {{ token.owner }}</v-card-subtitle>
@@ -30,9 +30,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.v-card {
+.token {
   padding: 10px;
-  margin: 5px;
 }
 .drag-image {
   color: #000;
